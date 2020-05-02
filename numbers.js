@@ -16,6 +16,8 @@ let bidmas_result = 5 * (10 - 3) ** 2
 let likes = 10
 likes += 59
 
+//shorthand notation works for all numeric operators
+
 let nice = likes.toString() + ' nice.'
 
 console.log(nice)
