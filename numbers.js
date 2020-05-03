@@ -20,5 +20,16 @@ likes += 59
 
 let nice = likes.toString() + ' nice.'
 
+
+//lil quiz question from sololearn
+function test(number) {
+    while (number < 5) {
+        number++
+    }
+    return number
+}
+
+//alert(test(2))
+
 console.log(nice)
 
