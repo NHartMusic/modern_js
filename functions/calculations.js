@@ -17,19 +17,22 @@ const arrowArea = calcArrow(127)
 
 //its so nice and clean!! 
 
-//another one 
-
-const greet = function () {
-    return 'hi god its me'
+const bill = function (products, tax) {
+    let total = 0
+    for (let i = 0; i < products.length; i++) {
+        total += products[i] + products[i] * tax
+    }
+    return total
 }
 
-const greeting = greet()
+//arrow version
 
-//arrowed up 
+const arrowBill = (products, tax) => {
+    let total = 0
+    for (let i = 0; i < products.length; i++) {
+        total += products[i] + products[i] * tax
+    }
+    return total
+}
 
-const arrowGreet = () => 'its your boi'
-
-const theGreet = arrowGreet()
-
-
-console.log(theGreet)
+console.log(arrowBill([11, 15, 30], 0.2))
