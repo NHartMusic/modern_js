@@ -6,9 +6,9 @@ const people = ['Steve Bannon', 'Michelle Bachman', 'Darth Vader', 'Billy Lee Tu
 
 let html = ``
 
-people.forEach(function (person) {
-    html += `<li style='color: pink'>${person}</li>`
-})
+// people.forEach(function (person) {
+//     html += `<li style='color: pink'>${person}</li>`
+// })
 
 //console.log(html)
-ul.innerHTML = html
+// ul.innerHTML = html
