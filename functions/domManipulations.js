@@ -13,6 +13,32 @@ const people = ['Steve Bannon', 'Michelle Bachman', 'Darth Vader', 'Billy Lee Tu
 //console.log(html)
 // ul.innerHTML = html
 
-const para = document.querySelector('.gang__gang')
+// const para = document.querySelectorAll('p')
+// 
+// console.log(para) 
 
-console.log(para) 
+const para = document.querySelector('p')
+
+//para.innerText += ', here come that rat'
+
+const paras = document.querySelectorAll('p')
+
+//console.log(paras)
+
+// paras.forEach(para => {
+//     console.log(para.innerText)
+//     para.innerText = ' rat'
+// })
+
+const content = document.querySelector('.content')
+
+//console.log(content.innerHTML)
+
+//content.innerHTML += '<h2>LETS GO BITCH</h2>'
+
+const theHomies = ['Ayn Rand', 'Baron Trump', 'Steve Harvey', 'Al Capone', 'Lindsay Lohan']
+
+theHomies.forEach(homie => {
+    content.innerHTML += `<p>${homie}</p>`
+})
+
