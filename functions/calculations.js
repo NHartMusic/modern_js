@@ -35,4 +35,8 @@ const arrowBill = (products, tax) => {
     return total
 }
 
-console.log(arrowBill([11, 15, 30], 0.2))
+//console.log(arrowBill([11, 15, 30], 0.2))
+
+
+
+
