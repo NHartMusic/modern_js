@@ -38,7 +38,15 @@ const content = document.querySelector('.content')
 
 const theHomies = ['Ayn Rand', 'Baron Trump', 'Steve Harvey', 'Al Capone', 'Lindsay Lohan']
 
-theHomies.forEach(homie => {
-    content.innerHTML += `<p>${homie}</p>`
-})
+// theHomies.forEach(homie => {
+//     content.innerHTML += `<p>${homie}</p>`
+// })
+
+const link = document.querySelector('a')
+
+//console.log(link.getAttribute('href'))
+
+link.setAttribute('href', 'https://www.imdb.com/name/nm0000998/?ref_=fn_al_nm_1')
+link.innerText = 'This your new daddy'
+
 
